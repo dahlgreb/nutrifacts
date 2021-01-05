@@ -7,7 +7,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.nutrifacts"
-        minSdkVersion 21
+        minSdkVersion 29
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -44,4 +44,9 @@ dependencies {
 // CameraX View class
     implementation "androidx.camera:camera-view:1.0.0-alpha14"
 
+//    implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
+
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:16.1.1'
+
+    implementation 'com.squareup.okhttp3:okhttp:3.4.1'
 }
